@@ -1,0 +1,209 @@
+
+@font-face {
+  font-family: 'Merriweather';
+   src: url("assets/fonts/Merriweather/Merriweather-Regular.ttf");
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-size: 18px;
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.bigcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.flex {
+  padding-top: 55px;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+.cv {
+  max-width: 0 auto;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #006699;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  transition: .3s;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.section-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  background-color: #006699;
+  color:#FFFFFF;
+  font-size: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em; 
+  font-weight: 400;
+}
+
+a {
+  color:#006699;
+  text-decoration: none;
+}
+
+
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact_type {
+  min-width: 90px;
+}
+
+.experience {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience_name {
+  font-weight: bold;
+}
+
+.experience_date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.skill {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.skill_name {
+  font-weight: bold;
+  min-width: 163px;
+  margin-bottom: 1em;
+}
+
+.skill_list {
+  list-style: none;
+}
+
+.languages {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.languages_name {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.project{
+  display: flex;
+  margin-bottom: 2em;
+}
+.project_name {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+
+.footer {
+  background-color: #006699;
+}
+
+.author {
+  font-size: 20px;
+  color:#FFFFFF;
+  font-weight: 500;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+}
+
+.year {
+  font-size: 20px;
+  color:#FFFFFF;
+  font-weight: 500;
+
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-link {
+  padding: 0 100px;
+  
+}
+
+@media (max-width: 768px) {
+  .experience {
+      display: block;
+  }
+  .code {
+      display: block;
+  }
+  .section {
+    width: 100%;
+  }
+}
+
+
+
+::-webkit-scrollbar { width: 0;}
