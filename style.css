@@ -204,9 +204,6 @@ a {
   }
 }
 
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 ::-webkit-scrollbar { width: 0;}
